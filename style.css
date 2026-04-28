@@ -81,6 +81,7 @@ p {
     transition: all 300ms;
 }
 .btn:hover {
+    opacity: 0.9
     background-color:rgba(80, 17, 204);
 }
 button {
@@ -1496,5 +1497,29 @@ footer {
         font-size: 14px;
         text-align: center;
         line-height: 1.5;
+    }
+}
+
+/* DESKTOP FIX (Footer Layout) */
+@media (min-width: 768px) {
+    .footer__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__columns {
+        width: calc(100% / 3);
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__copyright,
+    .footer__socials {
+        margin-top: 0;
     }
 }
