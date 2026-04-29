@@ -881,6 +881,9 @@ section #testimonials {
     width: 16px;
     height: 16px;
 }
+.testimonial__button--prev {
+    transform: rotate(180deg);
+}
 .testimonial__button {
     display: flex;
     justify-content: center;
