@@ -880,6 +880,8 @@ section #testimonials {
 .testimonial__button svg {
     width: 20px;
     height: 20px;
+    display: block;
+    vector-effect: non-scaling-stroke;
 }
 .testimonial__button {
     display: flex;
@@ -1522,12 +1524,4 @@ footer {
     .footer__socials {
         margin-top: 0;
     }
-}
-.testimonial__button,
-.testimonial__buttons,
-.testimonial_button svg {
-    outline: 1px solid red;
-}
-*{
-    outline: 1px solid rgba(255, 0, 0, 0.2);
 }
