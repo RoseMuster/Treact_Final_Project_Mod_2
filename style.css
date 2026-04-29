@@ -81,8 +81,8 @@ p {
     transition: all 300ms;
 }
 .btn:hover {
-    opacity: 0.9
-    background-color:rgba(80, 17, 204);
+    opacity: 0.9;
+    background-color: rgba(80, 17, 204, 1);
 }
 button {
     cursor: pointer;
