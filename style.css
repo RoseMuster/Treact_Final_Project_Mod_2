@@ -1523,3 +1523,8 @@ footer {
         margin-top: 0;
     }
 }
+.testimonial__button,
+.testimonial__buttons,
+.testimonial_button svg {
+    outline: 1px solid red;
+}
