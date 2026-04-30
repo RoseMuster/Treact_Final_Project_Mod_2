@@ -881,11 +881,10 @@ section #testimonials {
     width: 20px;
     height: 20px;
     display: block;
+    overflow: visible;
 }
 .testimonial__button svg path {
-    stroke-linejoin: round;
-    stroke-linecap: round;
-    shape-rendering: geometricPrecision;
+    vector-effect: non-scaling-stroke
 }
 .testimonial__button {
     display: flex;
