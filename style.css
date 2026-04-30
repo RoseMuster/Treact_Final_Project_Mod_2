@@ -881,10 +881,6 @@ section #testimonials {
     width: 20px;
     height: 20px;
     display: block;
-    overflow: visible;
-}
-.testimonial__button svg path {
-    vector-effect: non-scaling-stroke
 }
 .testimonial__button {
     display: flex;
