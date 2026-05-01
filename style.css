@@ -125,6 +125,13 @@ nav {
     margin: 0 auto;
 }
 .nav__links {
+    display: none;
+}
+
+.btn__menu {
+    display: block;
+}
+.nav__links {
     display: flex;
     align-items: center;
     padding-bottom: 2px;
@@ -1522,5 +1529,28 @@ footer {
     .footer__copyright,
     .footer__socials {
         margin-top: 0;
+    }
+}
+
+/* Base (mobile first) */
+
+.nav__links {
+    display: none;
+}
+
+.btn__menu {
+    display: block;
+}
+
+/*Desktop */
+@media (min-width: 768px) {
+    .nav__links {
+        display: flex;
+        align-items: center;
+        padding-bottom: 2px;
+    }
+
+    .btn__menu {
+        display: none;
     }
 }
