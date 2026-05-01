@@ -435,9 +435,8 @@ header {
 /* QUALITY WORK */
 
 #quality .row {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 #quality .section__title,
 #values .section__title {
