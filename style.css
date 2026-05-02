@@ -446,7 +446,8 @@ header {
 
 #quality .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 #quality .section__title,
 #values .section__title {
@@ -466,23 +467,20 @@ header {
 .quality__img--wrapper {
     border-radius: 4px;
     border: 1px solid rgb(229, 231, 235);
-    position:relative;
+    position: relative;
     margin: 0;
     z-index: 2;
     display:flex;
 }
 .quality__grid {
-    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
     width: 80px;
     height: 80px;
-    position: absolute;
-    right: 0 px;
-    bottom: 0 px;
     fill: rgb(100, 21, 255);
-    --tw-text-opacity: 1;
-    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    opacity: 0.5;
     z-index: 0;
-    display: block;
 }
 .quality__img {
     z-index: 1;
@@ -1591,7 +1589,6 @@ footer {
     @media (min-width: 768px) {
         #quality .row {
             display: flex;
-            flex-direction: row;
             align-items: center;
         }
 
