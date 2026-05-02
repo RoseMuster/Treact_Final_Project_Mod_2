@@ -483,6 +483,8 @@ header {
     z-index: 0;
 }
 .quality__img {
+    width: 100%;
+    max-width: 500px;
     z-index: 1;
 }
 
