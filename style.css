@@ -1590,6 +1590,7 @@ footer {
     /* DESKTOP (768px and up) */
     @media (min-width: 768px) {
         #quality .row {
+            display: flex;
             flex-direction: row;
             align-items: center;
         }
