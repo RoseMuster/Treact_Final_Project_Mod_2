@@ -1303,7 +1303,7 @@ footer {
         padding: 80px 32px
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .features {
         justify-content: center;
     }
