@@ -581,6 +581,14 @@ header {
 .value__img--wrapper {
     flex: 1;
 }
+.value__img--wrapper {
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+}
 .values__description,
 .values__img {
     width: 50%;
