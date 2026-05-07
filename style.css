@@ -459,6 +459,8 @@ header {
 .quality__description {
     max-width: 576px;
     margin-right: 64px;
+    position: relative;
+    z-index: 1;
 }
 .quality__description,
 .quality__img--wrapper {
@@ -469,7 +471,6 @@ header {
     border: 1px solid rgb(229, 231, 235);
     position: relative;
     margin: 0;
-    z-index: 2;
     display:block;
 }
 .quality__grid {
@@ -486,6 +487,8 @@ header {
     width: 100%;
     height: auto;
     display: block;
+    position: relative;
+    z-index: 1;
 }
 
 /* STEPS */
@@ -575,23 +578,28 @@ header {
     flex-direction: column;
 }
 .values__description {
-    padding: 32px 64px 32px 0;
-}
-.value__description,
-.value__img--wrapper {
     flex: 1;
+    padding: 32px 64px 32px 0;
+   }
+.values__img {
+    flex: 1;
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 .value__img--wrapper {
-    border-radius: 50%;
+    width: 36px;
+    height: 36px;
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 36px;
-    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
 }
-.values__description,
-.values__img {
-    width: 50%;
+.value__img--wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .values__list {
     margin-left: 0px;
@@ -620,11 +628,6 @@ header {
 }
 .value:nth-child(2) .value__img--wrapper {
     background-color: #feb2b2;
-}
-.value__img--wrapper {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 .value__name {
     margin-left: 12px;
@@ -664,7 +667,7 @@ header {
     padding-top: 0.5rem;
     text-align: center;
     color: rgb(26 32 44);
-    box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px
+    box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 .plan__stripe {
