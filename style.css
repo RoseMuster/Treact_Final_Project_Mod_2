@@ -473,9 +473,16 @@ header {
     margin: 0 56px;
 }
 .quality__grid {
-    transform: translateX(50%) translateY(50%);
+    position: absolute;
     right: 0;
     bottom: 0;
+    width: 80px;
+    height: 80px;
+    transform: translateX(50%, 50%);
+    z-index: 0;
+    opacity: 0.5;
+    fill: rgb(100 21 255);
+    display: block;
 }
 .quality__img {
     width: 100%;
