@@ -446,7 +446,7 @@ header {
 
 #quality .row {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 #quality .section__title,
@@ -467,21 +467,15 @@ header {
     width: 50%;
 }
 .quality__img--wrapper {
-    border-radius: 4px;
-    border: 1px solid rgb(229, 231, 235);
+    display:flex;
     position: relative;
-    margin: 0;
-    display:block;
+    z-index: 2;
+    margin: 0 56px;
 }
 .quality__grid {
-    position: absolute;
-    right: -40px;
-    bottom: -40px;
-    width: 80px;
-    height: 80px;
-    fill: rgb(100, 21, 255);
-    opacity: 0.5;
-    z-index: 0;
+    transform: translateX(50%) translateY(50%);
+    right: 0;
+    bottom: 0;
 }
 .quality__img {
     width: 100%;
