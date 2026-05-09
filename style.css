@@ -471,6 +471,7 @@ header {
     position: relative;
     z-index: 2;
     margin: 0 56px;
+    overflow: visible;
 }
 .quality__grid {
     position: absolute;
@@ -478,11 +479,12 @@ header {
     bottom: 0;
     width: 80px;
     height: 80px;
-    transform: translateX(50%, 50%);
+    transform: translateX(50%) translateY(50%);
     z-index: 0;
     opacity: 0.5;
-    fill: rgb(100 21 255);
+    fill: rgb(100, 21, 255);
     display: block;
+    pointer-events: none;
 }
 .quality__img {
     width: 100%;
