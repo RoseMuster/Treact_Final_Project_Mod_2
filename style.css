@@ -570,8 +570,8 @@ header {
 
 #values .row {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 32px;
 }
 #values .section__title {
     margin-top: 16px;
@@ -588,7 +588,6 @@ header {
     flex-direction: column;
 }
 .values__description {
-    flex: 1;
     padding: 32px 64px 32px 0;
    }
 .values__img {
