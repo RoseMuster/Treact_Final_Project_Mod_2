@@ -590,9 +590,15 @@ header {
 .values__description {
     padding: 32px 64px 32px 0;
    }
+.values__description,
+.values__img {
+    width: 50%;
+}
+
 .values__img {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-self: center;
     align-items: center;
 }
@@ -604,7 +610,7 @@ header {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-}
+}                                                                                               
 .value__img--wrapper img {
     width: 100%;
     height: 100%;
