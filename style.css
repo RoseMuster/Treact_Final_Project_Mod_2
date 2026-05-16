@@ -1053,8 +1053,9 @@ footer {
 .footer__columns {
     margin-top: -48px;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
     width: 100%;
 }
 .footer__column {
@@ -1062,6 +1063,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
 }
 .footer__column--title {
     font-weight: 700;
@@ -1391,7 +1393,7 @@ footer {
         padding-left: 0;
      }
      .footer__columns {
-        width: calc(100% / 3);
+        width:100%;
      }
      .footer__bottom {
         flex-direction: column;
@@ -1548,7 +1550,7 @@ footer {
     }
 
     .footer__columns {
-        width: calc(100% / 3);
+        width: 100%;
     }
 
     .footer__bottom {
