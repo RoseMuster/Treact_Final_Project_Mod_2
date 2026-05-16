@@ -1053,14 +1053,15 @@ footer {
 .footer__columns {
     margin-top: -48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 100%;
 }
 .footer__column {
     margin-top: 48px;
     display: flex;
-    justify-content:column;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .footer__column--title {
     font-weight: 700;
