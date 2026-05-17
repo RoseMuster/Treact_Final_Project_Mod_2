@@ -1400,7 +1400,11 @@ footer {
      .footer__columns {
         width:100%;
      }
-     .footer__bottom {
+     .footer__column {
+        width: 33.333%;
+     }
+     
+    .footer__bottom {
         flex-direction: column;
         align-items: center;
      }
@@ -1535,7 +1539,7 @@ footer {
         justify-content: center;
     }
     .footer__column {
-        width: auto;
+        width: 100%;
         padding: 0 16px;
         text-align: center;
         align-items: center;
@@ -1603,6 +1607,10 @@ footer {
 
     .footer__columns {
         width: 100%;
+    }
+
+    .footer__column {
+        width: 20%;
     }
 
     .footer__bottom {
