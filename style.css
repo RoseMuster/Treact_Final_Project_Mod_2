@@ -1063,7 +1063,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    z-index: 2;
     text-align: left;
+    min-width: 160px;
 }
 .footer__column--title {
     font-weight: 700;
@@ -1597,7 +1599,7 @@ footer {
     }
 
     .footer__columns {
-        width: calc(100% / 3);
+        width: 100%;
     }
 
     .footer__bottom {
