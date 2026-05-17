@@ -1065,7 +1065,7 @@ footer {
     align-items: flex-start;
     z-index: 2;
     text-align: left;
-    min-width: 160px;
+    min-width: 200px;
 }
 .footer__column--title {
     font-weight: 700;
