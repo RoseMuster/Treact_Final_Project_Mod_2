@@ -327,7 +327,7 @@ header .row {
 }
 .header__email--input::placeholder {
     font-weight: 500;
-    color: rgb(158, 170, 189)
+    color: rgb(158, 170, 189);
 }
 .header__email--input:hover {
     border-color: rgba(160, 174, 192);
@@ -359,7 +359,7 @@ header {
     opacity: 0.5;
     width: 256px;
     height: 256px;
-    transform: matrix(1, 0, 0, 1, -163, 0)
+    transform: matrix(1, 0, 0, 1, -163, 0);
 }
 .header__img--wrapper {
     width: calc(100% - 40%);
