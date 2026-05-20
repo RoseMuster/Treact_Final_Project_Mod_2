@@ -856,7 +856,7 @@ section #testimonials {
     align-items: center;
     justify-content: space-between;
 }
-.testimonial__img,
+.testimonials__img,
 .testimonials__description {
     width: 50%;
 }
@@ -951,7 +951,7 @@ section #testimonials {
     width: 1.25rem;
 }
 
-divider {
+.divider {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     border-right-width: 1px;
