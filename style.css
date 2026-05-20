@@ -984,12 +984,13 @@ main {
     max-width: 1024px;
     padding: 0 32px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .start__buttons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-top: 24px;
 }
 .start__title {
     color: #f7fafc;
