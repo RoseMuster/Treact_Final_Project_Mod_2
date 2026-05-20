@@ -775,12 +775,23 @@ header {
           rgb(129, 230, 217) 100%
     );
 }
+.plan:nth-child(2) {
+    background: linear-gradient(
+        135deg,
+        rgb(76, 81, 191) 0%,
+        rgb(102, 126, 234) 100%
+    );
+}
 .plan:nth-child(2) .plan__button {
     color: #6415ff;
     background-color: #f7fafc;
 }
-.plan:nth-child(2) .plan__stripes {
+.plan:nth-child(2) .plan__stripe {
     visibility: hidden;
+}
+.plan:nth-child(2) .plan__middle {
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(229, 231, 235);
 }
 .plan:nth-child(3) .plan__stripe,
 .plan:nth-child(3) .plan__button {
