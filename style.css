@@ -1068,9 +1068,8 @@ footer {
 .footer__columns {
     margin-top: -48px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
 }
 .footer__column {
     margin-top: 48px;
@@ -1078,8 +1077,6 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     z-index: 2;
-    text-align: left;
-    flex: 0 0 100px;
 }
 .footer__column--title {
     font-weight: 700;
@@ -1181,7 +1178,7 @@ footer {
     right: 0;
     width: 320px;
     height: 320px;
-    transform: translateX(-80px) translateY(-128px);
+    transform: translateX(128px) translateY(192px);
     z-index: 1;
     opacity: 0.5;
 }
